@@ -1,0 +1,19 @@
+{
+  "defaults": {
+    "timeout": 30000,
+    "wait": 2000,
+    "viewport": {
+      "width": 1440,
+      "height": 800
+    },
+    "reporters": [
+      "cli",
+      ["json", { "fileName": "./reports/pa11y-desktop-results.json" }]
+    ]
+  },
+  "urls": [
+    "https://www.websitename.com/",
+    "https://www.websitename.com/about-us/"
+
+  ]
+}
