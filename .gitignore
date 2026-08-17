@@ -1,0 +1,18 @@
+# macOS system
+.DS_Store
+
+# Node.js dependencies
+node_modules/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Local environment or secrets
+.env
+.env.*
+!.env.example
+
+# Editor/IDE configuration
+.vscode/
+.idea/
