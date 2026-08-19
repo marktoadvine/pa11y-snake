@@ -1,7 +1,8 @@
-# Accessibility Audit with pa11y-snake
+# pa11y snake
+# A plug-and-play setup to run Pa11y and convert the report.json into a digestible markdown, using a python script.
 
 This repository runs automated accessibility checks on your selected pages using [Pa11y CI](https://github.com/pa11y/pa11y-ci).
-Pa11y offers a sitemap.xml crawl, however, this process keeps things manual and more concise for efficient testing.
+Pa11y offers a sitemap.xml crawl, however, this snake process keeps things manual and targetted for efficient testing within internal teams and reporting.
 
 ## What does it do?
 
